@@ -37,7 +37,7 @@
 </ol>
 <p>В данном проекте были использованы такие инструменты: <strong>"qase.io", "checkVist", "Confluence", "Jira", "Miro"</strong></p>
 <p>Как решал:</p>
-> <a href=https://>Ссылка на проект</a>
+> <a href=https://nifigasebe.atlassian.net/wiki/spaces/TEAM1/pages/294913/1+2->Ссылка на проект</a>
  
  <p><strong>Выводы (Итоги):</strong></p>
   <ol>
@@ -95,7 +95,7 @@ pm.collectionVariables.set(key, value);
   </ol>
   <p dir="auto">В данном проекте были использованы такие инструменты <strong>"qase.io", "Confluence", "Postman"</strong>.</p>
   <p dir="auto">Как решал:<br>
-> <a href=https://>Ссылка на проект</a>
+> <a href=https://nifigasebe.atlassian.net/wiki/spaces/~6362c7a5fe5ff375235bdbe6/pages/9240644>Ссылка на отчет по проекту</a>
 </p>
 <ol dir="auto">
   <li>Дополнил тест-план из 1 проекта;</li>
