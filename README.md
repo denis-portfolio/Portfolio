@@ -77,13 +77,13 @@
   <li>В "Variables" были занесены такие данные как ссылка на веб-приложение и токен и заменены на свои значения "Url", "nevToken";</li>
         <li>Использовались скрипты для запоминания id, времени создания события:</li></ul>
     
-  <p>var key = "idLS"</p>
-<p>var value = pm.response.json().data.payload.id</p>
-<p>pm.collectionVariables.set(key, value);</p>
+<div>var key = "idLS"</div>
+var value = pm.response.json().data.payload.id
+pm.collectionVariables.set(key, value);
 
-<p>var key = "startAt"</p>
-<p>var value = pm.response.json().data.startAt</p>
-<p>pm.collectionVariables.set(key, value);</p>
+var key = "startAt"
+var value = pm.response.json().data.startAt
+pm.collectionVariables.set(key, value);
   </li>
   <li>В завершении тестирования Проекта 2 был дополнен отчёт об тест-ране API-коллекции в результатах тестирования Проекта 1.</li>
   </ol>
