@@ -75,15 +75,21 @@
         <li>Редактировать несуществующего Личного События</li>
           </ul></ol>
   <li>В "Variables" были занесены такие данные как ссылка на веб-приложение и токен и заменены на свои значения "Url", "nevToken";</li>
-        <li>Использовались скрипты для запоминания id, времени создания события:</li></ul>
-    
-<div>var key = "idLS"</div>
+        <li>Использовались скрипты для запоминания id, времени создания события:<br></ul>
+    <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="var key = &quot;personalID&quot;
+var value = pm.response.json().data.payload.id
+pm.collectionVariables.set(key, value);
+
+var key = &quot;old&quot;
+var value = pm.response.json().data.startAt
+pm.collectionVariables.set(key, value);    "><pre class="notranslate"><code>var key = "idLS"
 var value = pm.response.json().data.payload.id
 pm.collectionVariables.set(key, value);
 
 var key = "startAt"
 var value = pm.response.json().data.startAt
-pm.collectionVariables.set(key, value);
+pm.collectionVariables.set(key, value);    
+</code></pre></div>
   </li>
   <li>В завершении тестирования Проекта 2 был дополнен отчёт об тест-ране API-коллекции в результатах тестирования Проекта 1.</li>
   </ol>
