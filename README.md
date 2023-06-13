@@ -95,7 +95,7 @@ pm.collectionVariables.set(key, value);
   </ol>
   <p dir="auto">В данном проекте были использованы такие инструменты <strong>"qase.io", "Confluence", "Postman"</strong>.</p>
   <p dir="auto">Как решал:<br>
-<a href="https://>Ссылка на проект</a><br>
+> <a href=https://>Ссылка на проект</a>
 </p>
 <ol dir="auto">
   <li>Дополнил тест-план из 1 проекта;</li>
